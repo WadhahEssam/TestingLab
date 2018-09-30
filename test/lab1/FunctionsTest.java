@@ -20,5 +20,12 @@ public class FunctionsTest {
 		String expected = "firstsecond"; 
 		assertEquals(expected,actual);
 	}
+	
+	@Test
+	public void sumTest() {
+		int actual =  functions.sum(10, 20);
+		int expected = 30;
+		assertEquals(expected, actual);
+	}
 
 }

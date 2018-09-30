@@ -9,4 +9,8 @@ public class Functions {
 	public String concat(String a,String b) {
 		return a + "" + b ; 
 	}
+	
+	public int sum(int a, int b) {
+		return a + b;
+	}
 }
