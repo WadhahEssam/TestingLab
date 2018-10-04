@@ -34,5 +34,17 @@ public class FunctionsTest {
 		int expected = 6;
 		assertEquals(expected, actual);
 	}
+	
+	@Test 
+	public void isLeabYearTest() {
+		boolean actual = functions.isLeabYear(2020);
+		boolean expected = true;
+		assertEquals(actual, expected);
+	}
+	
+	@Test (expected=IllegalArgumentException.class)
+	public void isNotLeabYearTest() {
+		functions.isLeabYear(2021);
+	}
 
 }
