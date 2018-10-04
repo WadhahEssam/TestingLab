@@ -27,5 +27,12 @@ public class FunctionsTest {
 		int expected = 30;
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void subTest() {
+		int actual = functions.sub(10, 4);
+		int expected = 6;
+		assertEquals(expected, actual);
+	}
 
 }
